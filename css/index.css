@@ -276,12 +276,14 @@ li{
         justify-content: center;
         text-align: center;
         margin: 0;
-        width: 100%;
+        width: 100vw;
     }
-    /* .navSpan a{
-        border-top: 2px solid grey;
-        border-width: 100%;
-        margin: 0; */
+    .logoDiv{
+        display: flex;
+        justify-content: center;
+        border-bottom: 2px solid grey;
+        padding-bottom: 3%;
+        width: 100vw;
     }
     .navSpan span{
         padding: 3%;
