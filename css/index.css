@@ -247,3 +247,28 @@ li{
 	width: 48%;
 }
 
+/* STYLING AT 800PX */
+@media (max-width: 800px){
+    .navigation{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .navSpan{
+        display: flex;
+        justify-content: space-between;
+        width:100%;
+    }
+   #headerImage{
+       display:none;
+   }
+}
+@media (max-width: 500px){
+    .navSpan{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
