@@ -1,3 +1,249 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Set every element's box-sizing to border-box */
+* {
+	box-sizing: border-box;
+	border: 3px solid red;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+/* Navigation */
+.navigation{
+	display: flex;
+	justify-content: space-between;
+}
+.navSpan{
+	width: 80%;
+	display: flex;
+	justify-content: space-around;
+}
+
+/* Header */
+
+header{
+	border-bottom: 2px solid black;
+	padding: 5% 0%;
+}
+h1{
+	text-align: center;
+	font-size: 70px;
+}
+header span{
+	padding: 2px 30px 2px 30px;
+	border: 2px solid black;
+	
+}
+
+
+#innovationText{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#innovationText h1, span{
+	margin: 20px;
+}
+.headerItems{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	
+}
+
+/* Features and About */
+
+.contentOne{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: 5% 0%;
+}
+#features {
+	width: 45%
+	
+}
+
+#about{
+	width: 45%;
+}
+
+h4 {
+	font-size: 20px;
+	padding: 2% 0%;
+}
+
+/* middle image */
+
+.middle-img{
+	width: 100%;
+}
+
+/* Services, product and vision */
+
+.contentTwo div{
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	padding: 5% 0%;
+}
+.contentTwo{
+	border-bottom: 2px solid black;
+	margin-bottom: 2%;
+	display: flex;
+	justify-content: space-between;
+}
+
+body{
+	margin: 5% 5% 8% 5%;
+}
+footer {
+	margin-top: 5%;
+	margin-bottom: 8%;
+	text-align: center;
+
+}
+
+/* contact */
+
+.contact address, p{
+	padding: 8px 0px;
+}
+
+h2 {
+	font-size: 35px;
+}
+
+h3 {
+	font-size: 25px;
+}
+/* Services page begins here */
+
+
+/* image and blurb */
+
+.services-header-img{
+	width: 100%;
+}
+
+#servicesBlurb{
+	padding: 5% 0%;
+	border-bottom: 2px solid black;
+}
+
+/* services boxes */
+.services{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	justify-content: space-between;
+	margin-top: 5%;
+	
+}
+.services div{
+	border: 2px solid black;
+	background-color: antiquewhite;
+	display: flex;
+	width: 48%;
+	flex-direction: column;
+	padding: 2%;
+	margin-bottom: 3%;
+	
+}
+.learnMore{
+	width: 25%;
+	padding: 10px 30px 10px 30px;
+	border: 2px solid black;
+	border-radius: 6px;
+	background-color: white;
+	text-align: center;
+	margin-top: 2%;
+}
+
+/* facts section */
+.factSection{
+	display: flex;
+	width:100%;
+	justify-content: space-between;
+}	
+
+.factList{
+	display: flex;
+	width: 48%;
+	flex-direction: column;
+}
+ul{
+	list-style-type: square;
+	list-style-position: inside;
+	font-size: 20px;
+  }
+li{
+	margin: 20px;
+}
+.factList p{
+	font-size: 20px;
+}
+
+.services-info-img{
+	width: 48%;
+}
 
